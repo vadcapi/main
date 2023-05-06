@@ -64,7 +64,6 @@
     height: 100%;
     width: auto;
   }
-
   .resume{
     background-color: #3E7FFA;
   }
@@ -95,11 +94,7 @@
     padding: 0 8%;
     padding-top: 20px;
   }
-  @media(max-width:990px){
-    .head{
-        padding: 0 21%
-    }
-  }
+ 
   a>img{
     height: 300px;
     padding-bottom: 20px;
