@@ -99,22 +99,18 @@
     height: 300px;
     padding-bottom: 20px;
   }
+  .date{
+    font-size: 1vw;
+  }
   @media(max-width:1660px)
   {
     a>img{
-        height:150px;
+        height:18vw;
         float: left;
         padding-right: 20px;
     }
   }
-  @media(max-width:990px)
-  {
-    a>img{
-        height:200px;
-        float: left;
-        padding-right: 20px;
-    }
-  }
+
   .cont{
     background-color: #CFFA70;
   }
@@ -143,21 +139,16 @@
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
   }
-  @media(max-width:990px){
-    .emoji2{
-        float: none;
-        text-align: center;
-    }
-  }
   .contact{
     text-align: center;
   }
   .contact>h2{
     font-family: 'Josefin Sans', sans-serif;
     color: black;
+    font-size: 5vw;
   }
   .contact>a{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color:#AD4E2B;
   }
@@ -165,10 +156,98 @@
     width: fit-content;
   }
   .cont3>a>img{
-    height: 10vh;
+    height: 7vw;
   }
   .footer{
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     font-weight: 500px;
   }
+  .langp{
+    font-size: 2vw;
+  }
+  .stack{
+    font-size: 3vw;
+  }
+  .work{
+    font-size: 2vw;
+  }
+  .workp{
+    font-size: 1.2vw;
+  }
+  @media(max-width:1000px)
+  {
+    a>img{
+      height:43vw;
+      float: none;
+      padding-right: 20px;
+    }
+    .emoji2{
+      float: none;
+      text-align: center;
+    }
+    .footer{
+    font-size: 3vw;
+    }
+    .cont2>h2{
+      font-size: 5vw;
+    }
+    .contact>h3{
+     font-size: 5vw;
+    }
+    .contact>h2{
+     font-size: 12vw;
+    }
+    .cont3>a>img{
+     height: 20vw;
+    }
+    .emoji{
+      font-size: 10vw;
+    }
+    .contact>a{
+      font-size: 6vw;
+    }
+    .emoji{
+      font-size: 20vw;
+    }
+    .emoji2{
+      font-size: 10vw;
+    }
+    .font1{
+      font-size: 10vw;
+    }
+    .langp{
+      font-size: 6vw;
+    }
+    .lang>h2{
+      font-size: 7vw;;
+    }
+    .stack{
+      font-size: 7vw;
+    }
+    .working>h2{
+      font-size: 10vw;
+    }
+    .projects>div>p{
+      font-size: 5vw;
+    }
+    .projects>div>a>h2{
+      font-size: 8vw;
+    }
+    .work{
+      font-size: 5vw;
+    }
+    .workp{
+      font-size: 4vw;
+    }
+    .date{
+      font-size: 3vw;
+    }
+    .topcont>h3{
+      font-size: 10vw;
+    }
+    div>.hi{
+      font-size: 12vw;
+    }
+
+ }
